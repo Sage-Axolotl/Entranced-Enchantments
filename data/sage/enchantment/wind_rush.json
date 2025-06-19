@@ -1,0 +1,28 @@
+{
+  "description": "Wind Rush",
+  "supported_items": "#minecraft:harnesses",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:flying_speed",
+        "id": "wind_rush_speed",
+        "amount": 0.05,
+        "operation": "add_value"
+      }
+    ]
+  }
+}
