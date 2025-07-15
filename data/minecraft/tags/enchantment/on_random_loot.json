@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
-    "sage:wind_rush"
+    "sage:wind_rush",
+    "sage:grow",
+    "sage:shrink",
+    "sage:reach",
+    "sage:swift_strike"
   ]
 }
 

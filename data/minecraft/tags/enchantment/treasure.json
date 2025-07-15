@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "sage:wind_rush"
+    "sage:wind_rush",
+    "sage:shrink",
+    "sage:grow"
   ]
 }

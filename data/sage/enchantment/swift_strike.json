@@ -1,0 +1,33 @@
+{
+  "description": "Swift Strike",
+  "supported_items": "#sage:enchantable/all_weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 3,
+  "max_level": 5,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "enchantment.swift_strike.attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

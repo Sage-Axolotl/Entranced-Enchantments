@@ -1,0 +1,31 @@
+{
+  "description": "Shrink",
+  "exclusive_set": "sage:grow",
+  "supported_items": "#sage:enchantable/all_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 35,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 15,
+  "slots": [
+    "armor",
+    "body",
+    "saddle"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "enchantment.shrink.scale",
+        "amount": -0.13,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

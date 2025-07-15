@@ -1,0 +1,31 @@
+{
+  "description": "Grow",
+  "exclusive_set": "sage:shrink",
+  "supported_items": "#sage:enchantable/all_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 35,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 15,
+  "slots": [
+    "armor",
+    "body",
+    "saddle"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "enchantment.grow.scale",
+        "amount": 0.25,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

@@ -19,7 +19,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:flying_speed",
-        "id": "wind_rush_speed",
+        "id": "enchantment.wind_rush.flying_speed",
         "amount": 0.05,
         "operation": "add_value"
       }
