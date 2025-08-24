@@ -1,2 +1,2 @@
 # Entranced-Enchantments
-https://modrinth.com/project/FOBeYoCu
+new repository: https://github.com/Sage-Axolotl/Sages-Packs
